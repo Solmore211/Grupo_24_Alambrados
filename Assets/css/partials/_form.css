@@ -1,0 +1,87 @@
+.form-flex-padre {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: auto;
+   
+}
+
+.form-flex-hijo1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 10px;
+    align-items: center;
+}
+
+.form-flex-hijo2 {
+display: flex;
+flex-direction: column;
+
+    justify-content: center;
+   
+    border: 10px;
+    align-items: center;
+}
+
+.iframe-form {
+    height: 300px;
+    width: 500px;
+    margin: 20px;
+}
+
+.form-flex-hijo1 h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.form-flex-hijo2 h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+/*FORMULARIOS*/
+.formulario {
+    display: grid;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    padding: 2%;
+    margin: 1% 20%;
+}
+
+label, input {
+    font-size: 1.0vw;
+}
+
+input[type="text"],input[type=email],
+input[type=number],input[type=submit],
+input[type=textArea], select {
+    width: 80%;
+    padding: 1vw; /*12px 20px*/
+    margin: 1vw; /*8px 0*/
+    display: inline-block;
+    border: 1vw;  /*1px solid #ccc*/
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    background-color: var(--bg-color);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--bg-color);
+}
+
+textarea {
+    width: 60%;
+}
