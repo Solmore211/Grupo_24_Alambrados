@@ -1,0 +1,1 @@
+Trabajo comenzado a partir del 23.10.23, debido a encontrarnos en otro grupo (Grupo 16) que por razones personales debimos abandonar y ahora estamos conformando el grupo 24.
