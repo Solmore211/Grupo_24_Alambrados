@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Familia de Alambradores</title>
-    
     <link rel="stylesheet" href="../Assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 
 <body>
@@ -14,15 +16,114 @@
     <nav>
         <ul>
             <li><a href="../index.html">Quienes Somos</a></li>
-            <li><a href="./1servicos.html">Servicios/Trabajos</a></li>
+            <li><a href="./1servicios.html">Servicios/Trabajos</a></li>
             <li><a href="./2nosotros.html">Elígenos</a></li>
             <li><a href="./3contactos.html">Contacto</a></li>
             <ul>
     </nav>
 
     <main>
+        <div class="divPrincipal__page">
+
+            <div class="ubicacion__page">
+                <h2>Por consultas:</h2>
+                <p>Lo puedes hacer personalmente en:</p>
+                <iframe class="iframe-form"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.5303681163127!2d-3.6859556251198478!3d40.46353025279141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42291811915257%3A0x1a6453cab9c39275!2sC.%20de%20Apolonio%20Morales%2C%2011%2C%2028036%20Madrid%2C%20Spain!5e0!3m2!1sen!2sar!4v1693201716413!5m2!1sen!2sar"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="contacto__telefonico">
+                <p>O bien comunicándote al: <i class="fa-solid fa-square-phone"> 3444-------</i></p>
+            </div>
+<br>
+            <div class="formulario__principal">
+                <h2>Formulario de registro:</h2>
+                <p>Por dudas e información, no dude en contactarnos.</p>
+                <form action="" class="formulario" id="formulario">
+
+                    <!--Grupo: nombre-->
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">Nombre y Apellido</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="nombre" id="nombre"
+                                placeholder="john Doe"> <!--John Doe nombre de ejemplo-->
+                            <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                        </div>
+                        <p class="formulario__input-error">Los datos proporcionados pueden contener al menos, 40
+                            carateres.</p>
+                    </div>
+
+                    <!--Grupo: Correo Electronico-->
+                    <div class="formulario__grupo" id="grupo__correo">
+                        <label for="correo" class="formulario__label">Correo Electrónico</label>
+                        <div class="formulario__grupo-input">
+                            <input type="email" class="formulario__input" name="correo" id="correo"
+                                placeholder="correo@correo.com">
+                            <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                        </div>
+                        <p class="formulario__input-error">El correo solo puede contener letras, números, puntos,
+                            guiones y guión bajo</p>
+                    </div>
+
+
+                    <!--Grupo: Provincia-->
+                    <div class="formulario__grupo" id="grupo__provincia">
+                        <label for="provincia" class="formulario__label">Provincia</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="provincia" id="provincia"
+                                placeholder="Entre Rios"> <!--John Doe nombre de ejemplo-->
+                            <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                        </div>
+                        <p class="formulario__input-error">Coloque provincia de residencia.</p>
+                    </div>
+
+                    <!--Grupo: Telefono-->
+                    <div class="formulario__grupo" id="grupo__telefono">
+                        <label for="telefono" class="formulario__label">Teléfono</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="telefono" id="telefono"
+                                placeholder="344447732">
+                            <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                        </div>
+                        <p class="formulario__input-error">El teléfono solo puede contener números y el máximo es de 14
+                            dígitos</p>
+                    </div>
+
+                    <!--Grupo: Mensaje-->
+                    <div class="formulario__grupo" id="grupo__mensaje">
+                        <label for="mensaje" class="formulario__label">Mensaje</label>
+                        <div class="formulario__grupo-input">
+                            <input tyoe="text" class="formulario__input" id="mensaje" name="mensaje"
+                                placeholder="Deja tu mensaje o consulta">
+                            <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                        </div>
+                        <p class="formulario__input-error">El mensaje debe contener algo.</p>
+                    </div>
+
+                    <!-- Grupo Error-->
+                    <div class="formulario__mensaje" id="formulario__mensaje">
+                        <p><i class="fa-solid fa-triangle-exclamation"></i> <b>Error:</b> Por favor rellena el
+                            formulario correctamente. </p>
+                    </div>
+
+                    <div class="formulario__grupo formulario__grupo-btn-enviar">
+                        <button type="submit" class="formulario__btn"><b>Enviar</b></button>
+                        <p class="formulario__mensaje-exito" id="formulario__mensaje-exito"><b>Formulario enviado
+                                exitosamente!</b></p>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+        <br><br>
 
     </main>
+
+    <script src="https://kit.fontawesome.com/e15e8c34af.js" crossorigin="anonymous"></script>
+    <script src="../Js/form.js"></script>
 
     <footer>
         <p>&copy; 2023 by Virginia Ortega and Solange Moreira</p>
