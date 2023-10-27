@@ -1,0 +1,45 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #401492;
+    color: #fff;
+    padding: 10px;
+}
+
+#logo img {
+    max-width: 100px; 
+}
+
+#quienes-somos {
+    padding: 20px;
+}
+
+#imagen-descriptiva img {
+    max-width: 100%; /* La imagen se ajustará al ancho de su contenedor */
+}
+
+#video-descriptivo {
+    margin-top: 20px;
+}
+#logo img {
+    width: 100px; /* Establece el ancho deseado en píxeles */
+    height: auto; /* El alto se ajustará automáticamente para mantener la proporción original */
+}
+#quienes-somos {
+    text-align: center; /* Alinea el contenido al centro */
+    padding: 20px; /* Espacio alrededor del contenido */
+}
+
+.content-wrapper {
+    max-width: 800px; /* Ancho máximo del contenido para evitar que se estire demasiado */
+    padding: 20px; /* Espacio alrededor del contenido */
+}
+
+#imagen-descriptiva img {
+    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente */
+}
