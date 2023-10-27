@@ -26,3 +26,5 @@ Creación de dos ramas vacías por falla del sistema: ramaViko3 y ramaViko4.
 
 ramaSol4:
 -subida de imagenes
+ramaviko3:
+-Tratando de mergear
