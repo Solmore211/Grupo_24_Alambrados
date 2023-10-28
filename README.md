@@ -28,3 +28,7 @@ ramaSol4:
 -subida de imagenes
 ramaviko3:
 -Tratando de mergear
+
+27.10.23
+Creación de  carpeta responsivePage, footerRes.css, reponsive.css y serevicios.css.
+Edición de 1servicios.html
