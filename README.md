@@ -24,11 +24,15 @@ ramaSol-Viko1:
 26.10.23
 Creación de dos ramas vacías por falla del sistema: ramaViko3 y ramaViko4.
 
-ramaSol4:
--subida de imagenes
 ramaviko3:
+-subida de imagenes
 -Tratando de mergear
 
 27.10.23
+ramaSol4:
 Creación de  carpeta responsivePage, footerRes.css, reponsive.css y serevicios.css.
 Edición de 1servicios.html
+
+ramaSol5:
+-Acceso de servicios.html a los demas html y cambios varios.
+-Modificación en servicios.css
