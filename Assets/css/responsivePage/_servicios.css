@@ -8,6 +8,24 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+
+main h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(22, 88, 163);;
+}
+
+main p {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    font-weight: 700;
+    
+}
+
+
 /*PARTE PRINCIPAL DE LA PAGINA*/
 .servicios__principal {
     display: grid;
@@ -18,8 +36,13 @@
     width: 100%;
 }
 
+.iframe__servicios {
+    height: 100%;
+}
+
 /*TARJETA DE FOTOS*/
-.imagen__servicios {
+.imagen__servicios,
+.iframe__servicios {
 width: 100%;
  /*border: 1px solid blue; borde imagen*/
 border-radius: 5px;
@@ -30,12 +53,14 @@ transition: all 0.2s;
 }
 
 /*QUE PASA SI HACES CLICK*/
-.imagen__servicios:hover {
+.imagen__servicios:hover,
+.iframe__servicios:hover {
     /*la imagen sube esa escala*/
     transform: scale(1.05);
 }
 
-.imagen__servicios > img {
+.imagen__servicios > img,
+.iframe__servicios > iframe {
     width: 100%;
 }
 
