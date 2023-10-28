@@ -1,3 +1,79 @@
+/*LETRA IMPORTADA DE GOOGLE FONTS
+***VIDEO galeria de imagenes-fetch y dom 16´*** */
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch&family=Titillium+Web:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+main h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(22, 88, 163);;
+}
+
+main p {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    font-weight: 700;
+    
+}
+
+
+/*PARTE PRINCIPAL DE LA PAGINA*/
+.servicios__principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1600px;
+    width: 100%;
+}
+
+.iframe__servicios {
+    height: 100%;
+}
+
+/*TARJETA DE FOTOS*/
+.imagen__servicios,
+.iframe__servicios {
+width: 100%;
+ /*border: 1px solid blue; borde imagen*/
+border-radius: 5px;
+box-shadow: 5px 5px 5px rgb(91, 198, 212); /*sombreado lado derecho*/
+background-color: white;
+/*tiempo que tarda en subir al hacer click*/
+transition: all 0.2s;
+}
+
+/*QUE PASA SI HACES CLICK*/
+.imagen__servicios:hover,
+.iframe__servicios:hover {
+    /*la imagen sube esa escala*/
+    transform: scale(1.05);
+}
+
+.imagen__servicios > img,
+.iframe__servicios > iframe {
+    width: 100%;
+}
+
+.imagen__servicios > h3 {
+    /*color de la letra*/
+    color: rgb(22, 88, 163);
+    text-align: center;
+    font-size: 0.9rem; /*tamaño de letra*/
+    /*arriba-abajo:mitad de izq-der*/
+    padding: 5px 10px;
+    background-color: white;
+}
+
 .divPrincipal__page {
     display: grid;
     grid-column-gap: 40px;
@@ -204,4 +280,32 @@
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    main {
+    grid-template-columns: 1fr 1fr;
+}}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
 }

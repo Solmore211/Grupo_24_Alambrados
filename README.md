@@ -36,3 +36,7 @@ Edición de 1servicios.html
 ramaSol5:
 -Acceso de servicios.html a los demas html y cambios varios.
 -Modificación en servicios.css
+
+ramaSol6:
+*Creación de contactRes.css
+-Modificación en _form.css y 3contactos.html
