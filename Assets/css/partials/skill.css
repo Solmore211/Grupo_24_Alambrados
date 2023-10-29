@@ -1,5 +1,5 @@
 body {
-    color: rgb(251, 96, 13);
+    color: rgb(22, 88, 163);
 }
 
 h2 {
@@ -21,7 +21,7 @@ height: auto;
 .descripcion {
 
 
-color: hsla(46, 90%, 49%, 0.95); 
+color: hsla(248, 86%, 36%, 0.95); 
 /
 }
 .image-row {
@@ -32,4 +32,67 @@ justify-content: space-around;
 .image-text {
 text-align: center;
 margin: 0 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch&family=Titillium+Web:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+main h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(22, 88, 163);;
+}
+
+main p {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    font-weight: 700;
+    
+}
+
+
+/*PARTE PRINCIPAL DE LA PAGINA*/
+.servicios__principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1600px;
+    width: 100%;
+}
+
+.iframe__servicios {
+    height: 100%;
+}
+
+/*TARJETA DE FOTOS*/
+.imagen__servicios,
+.iframe__servicios {
+width: 100%;
+ /*border: 1px solid blue; borde imagen*/
+border-radius: 5px;
+box-shadow: 5px 5px 5px rgb(91, 198, 212); /*sombreado lado derecho*/
+background-color: white;
+/*tiempo que tarda en subir al hacer click*/
+transition: all 0.2s;
+}
+
+/*QUE PASA SI HACES CLICK*/
+.imagen__servicios:hover,
+.iframe__servicios:hover {
+    /*la imagen sube esa escala*/
+    transform: scale(1.05);
+}
+
+.imagen__servicios > img,
+.iframe__servicios > iframe {
+    width: 100%;
 }
