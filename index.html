@@ -1,29 +1,35 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Familia de Alambradores</title>
-    <link rel="stylesheet" href="./Assets/css/styles.css">
-    <link rel="stylesheet" href="./Assets/css/partials/_portada.css">
+
+    <link rel="stylesheet" href="./Assets/css/partials/_variables.css">
+    <link rel="stylesheet" href="./Assets/css/responsivePage/_responsive.css">
+    <link rel="stylesheet" href="./Assets/css/partials/_portada.css" />
+    <link rel="stylesheet" href="./Assets/css/responsivePage/_footerRes.css" />
 </head>
 <body>
-    <header>
-        <div id="logo">
-            <img src="../Grupo_24_Alambrados/Images/LogoBettaMor.jpg" alt="Mi Logo">
-        </div>
-    </header>
-    <img src="" class="imagen" width="17%" height="17%" style="border:0;" />
-    <nav>
-        <ul>
-            <li><a href="./index.html">Quienes Somos</a></li>
-            <li><a href="./Pages/1servicios.html">Servicios/Trabajos</a></li>
-            <li><a href="./Pages/2nosotros.html">Elígenos</a></li>
-            <li><a href="./Pages/3contactos.html">Contacto</a></li>
-            <ul>
-    </nav>
+    <header class="header">
+    <a href="../Pages/1servicios.html" class="logo">BettaMor <br>
+    Alambrados</a>
+    <!--BOTON PARA EL MENU HAMBURGUESA-->
+    <input type="checkbox" id="check">
 
+    <label for="check" class="icons">
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <i class="fa-solid fa-xmark" id="close-icon"></i>
+    </label>
+
+    <nav class="navBar">
+        <a href="../index.html" style="--i:0;">Quienes Somos</a>
+        <a href="../Pages/1servicios.html" style="--i:1;">Servicios/Trabajos</a>
+        <a href="../Pages/2nosotros.html" style="--i:2;"> Elígenos</a>
+        <a href="../Pages/3contactos.html" style="--i:3;">Contacto</a>
+    </nav>
+    </header>
     <main>
         <section id="quienes-somos">
             <div class="content-wrapper">
@@ -40,12 +46,13 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/TU_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
             </div>
         </section>
-
     </main>
 
     <footer>
-        <p>&copy; 2023 by Virginia Ortega and Solange Moreira</p>
-        <p>Developed exclusively for Alambrados</p>
+        <ul>
+            <li>&copy; 2023 by Virginia Ortega and Solange Moreira. <br>
+                Developed exclusively for Alambrados</li>
+        </ul>
     </footer>
 </body>
 
