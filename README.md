@@ -40,3 +40,9 @@ ramaSol5:
 ramaSol6:
 *Creación de contactRes.css
 -Modificación en _form.css y 3contactos.html
+
+29.10.23
+ramaSol7:
+-Creación de bettaMor.html, bettaMor.css alertclima.js y clima.js
+-Cambios varios en carpeta Assets
+-Cambios de links en htmls
