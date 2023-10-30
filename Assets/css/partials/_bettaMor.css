@@ -4,3 +4,31 @@
     box-sizing: border-box;
     font-family: var(--font-family);
 }
+
+main {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+main h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(22, 88, 163);;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+
+.clima__principal {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1600px;
+    width: 100%;
+}

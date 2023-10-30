@@ -1,9 +1,9 @@
 let lon;
 let lat;
-let temperature = document.querySelector(".temp");
-let summary = document.querySelector(".summary")
-let loc = document.querySelector(".loc")
-let icon = document.querySelector(".icon")
+let temperature = document.querySelector(".temp__clima");
+let summary = document.querySelector(".summary__clima")
+let loc = document.querySelector(".loc__clima")
+let icon = document.querySelector(".icon__clima")
 const kelvin = 273.15
 
 window.addEventListener("load", () => {
@@ -13,7 +13,7 @@ window.addEventListener("load", () => {
         //Pide la ubicacion para acceder a la pagina
         navigator.geolocation.getCurrentPosition((position) => {
 
-            console.log(position);
+            //console.log(position);
             lon = position.coords.longitude;
             lat = position.coords.latitude;
 
@@ -28,8 +28,8 @@ window.addEventListener("load", () => {
             })
     
         .then ((data) => {
-            console.log("Esta es la data")
-            console.log(data);
+            //console.log("Esta es la data")
+            //console.log(data);
 
             temperature.textContent =
                 Math.floor(data.main.temp - kelvin) + "ºC"

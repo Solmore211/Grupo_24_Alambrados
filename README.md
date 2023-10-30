@@ -46,3 +46,8 @@ ramaSol7:
 -Creación de bettaMor.html, bettaMor.css alertclima.js y clima.js
 -Cambios varios en carpeta Assets
 -Cambios de links en htmls
+
+ramaSol8:
+-Agredado de enlace para iconos en index.html y bettaMor.html
+-Creación de bettaMor.css
+-Modificación en _bettaMor.css, 3contactos.html y en clima.js
