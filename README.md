@@ -51,3 +51,7 @@ ramaSol8:
 -Agredado de enlace para iconos en index.html y bettaMor.html
 -Creación de bettaMor.css
 -Modificación en _bettaMor.css, 3contactos.html y en clima.js
+
+31.10.23
+ramaSol9:
+-Arreglos varios en htmls y css
