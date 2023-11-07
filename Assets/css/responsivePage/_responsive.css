@@ -1,7 +1,7 @@
 body {
     min-height: 100vh;
     /*IMAGEN DE FONDO*/
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSjyV_J65jYlGyc3rTUMlY0hxr0jhuULZslQ&usqp=CAU") no-repeat;
+    background: var(--bg-color);
     background-size: cover;
     background-position: center;
 }
@@ -107,7 +107,7 @@ body {
         left: 0;
         width: 100%;
         height: 0;
-        background: rgb(236, 233, 233); /*CAmbiar el color*/
+        background: var(--secondary-color) ; /*CAmbiar el color*/
         backdrop-filter: blur(50px);
         box-shadow: 0 .5rem 1rem rgb(236, 233, 233);
         /*CUANDO ESTA EL MENU Y DAS CLICK APARECE LA CRUZ
