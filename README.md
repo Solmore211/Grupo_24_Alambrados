@@ -57,7 +57,13 @@ ramaSol9:
 -Arreglos varios en htmls y css
 
 07.11.23
+ramaSol10:
 Cambios en colores en _responsive.css.
 En _form.css se eliminó contenido innecesario.
 En 3contactos.html se eliminó un script.
 Eliminación de alertClima.js ya que no será utilizado.
+
+08.11.23
+ramaSol11:
+Agregado de: _carrete.css, carpeta index en imagenes y carrete.js
+Modificación de index.html y en index.css
