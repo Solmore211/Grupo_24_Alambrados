@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: var(--font-family);
+    background-color: var(--bg-color);
 }
 
 main {
