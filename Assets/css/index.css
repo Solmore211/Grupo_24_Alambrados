@@ -1,6 +1,5 @@
 /*======= Importar todos los CSS =======*/
 @import 'partials/_variables.css';
 @import 'responsivePage/_responsive.css';
-@import 'partials/_portada.css';
 @import 'responsivePage/_footerRes.css';
 @import 'partials/_carrete.css';

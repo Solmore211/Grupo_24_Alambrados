@@ -67,3 +67,11 @@ Eliminación de alertClima.js ya que no será utilizado.
 ramaSol11:
 Agregado de: _carrete.css, carpeta index en imagenes y carrete.js
 Modificación de index.html y en index.css
+
+ramaSol12:
+Cambios varios en:
+-2nosotros.css,
+-index.css,
+-_2nosotros.css,
+-_carrete.css,
+-y en 2nosotros.html
