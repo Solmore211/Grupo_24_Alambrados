@@ -3,8 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: var(--font-family);
-    background-color: var(--bg-color);
+    font-family: var(--font-family); 
 }
 
 main {
@@ -28,7 +27,7 @@ main h1 {
 main p {
     text-align: center;
     padding: 20px;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: var(--font-family);
     color: black;
     font-weight: 700;   
     font-size: 1.5rem;

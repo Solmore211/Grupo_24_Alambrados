@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch&family=Titillium+Web:wght@300&display=swap');
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+
 body {
     min-height: 100vh;
     /*IMAGEN DE FONDO*/

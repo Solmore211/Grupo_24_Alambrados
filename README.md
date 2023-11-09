@@ -75,3 +75,8 @@ Cambios varios en:
 -_2nosotros.css,
 -_carrete.css,
 -y en 2nosotros.html
+
+09.11.23
+ramaSol13:
+Cambios varios en links de css
+Modificación de detalles en htmls
