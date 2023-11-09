@@ -91,3 +91,9 @@ main p {
 .btn_right {
     right: 10px;
 }
+.main {
+    min-height: 300px; /* Ajusta esta altura según tus necesidades */
+  }
+  .container_carrusel {
+    min-height: 150px; /* Ajusta esta altura según tus necesidades */
+  }
