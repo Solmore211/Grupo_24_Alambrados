@@ -8,7 +8,6 @@
 
 body {
     height: 100vh;
-    display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -92,8 +91,52 @@ main p {
     right: 10px;
 }
 .main {
-    min-height: 300px; /* Ajusta esta altura según tus necesidades */
+    min-height: 300px; 
   }
   .container_carrusel {
-    min-height: 150px; /* Ajusta esta altura según tus necesidades */
+    min-height: 150px; 
   }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container_carrusel {
+    max-width: 800px; 
+    margin: 0 auto; 
+    overflow: hidden;
+    position: relative;
+}
+
+.carruseles {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider_section img {
+    min-width: 100%;
+    height: auto;
+  
+
+}
+.btn_left,
+.btn_right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    
+   
+color: #333;
+    cursor: pointer;
+}
+
+.btn_left {
+    left: 0;
+}
+
+.btn_right {
+    right: 0;
+}

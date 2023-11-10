@@ -72,7 +72,7 @@ ramaSol12:
 Cambios varios en:
 -2nosotros.css,
 -index.css,
--_2nosotros.css,
+-_2nosotros.css
 -_carrete.css,
 -y en 2nosotros.html
 
@@ -80,3 +80,8 @@ Cambios varios en:
 ramaSol13:
 Cambios varios en links de css
 Modificación de detalles en htmls
+
+10.11.23
+ramaViko11:
+Cambios en css footer 
+y pruebas en html index para corregir carrusel
