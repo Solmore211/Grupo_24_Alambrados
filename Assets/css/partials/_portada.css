@@ -13,42 +13,48 @@ body {
     padding: 20px;
 }
 
+.main {
+    min-height: 300px; 
+  }
+
 main h1 {
     text-align: center;
     padding: 20px;
     font-family: var(--font-family);
-    color: rgb(22, 88, 163);;
+    color: var(--primary-color);
 }
 
 main p {
     text-align: center;
     padding: 20px;
-    font-family: 'var(--font-family)';
+    font-family: var(--font-family);
     color: black;
     font-weight: 700;
     
 }
 
-
 .container_carrusel {
-    position: relative; /*se establece para que los iconos queden dentro de el*/
+    position: relative;
     width: 500px;
+    min-height: 150px; 
     height: 300px;
     background-color: #e0e0e0;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
     border-radius: 15px;
-    overflow: hidden; /*muestra una sola imagen*/
+    overflow: hidden;
+    max-width: 800px; 
+    margin: 0 auto; 
 }
 
 .carruseles {
-    width: 700%; /*segun la cantidad de fotos*/
+    width: 700%;
     height: 100%;
     display: flex;
-    /*transform: translate(-66.6%); valor que ocupa cada imagen de ancho*/
+    transition: transform 0.5s ease-in-out;
 }
 
 .slider_section {
-    width: calc(100% / 7); /*segun la cantidad de fotos*/
+    width: calc(100% / 7);
     height: 100%;
 }
 
@@ -57,7 +63,6 @@ main p {
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
-
 }
 
 .btn_left,
@@ -89,54 +94,4 @@ main p {
 
 .btn_right {
     right: 10px;
-}
-.main {
-    min-height: 300px; 
-  }
-  .container_carrusel {
-    min-height: 150px; 
-  }
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-}
-
-.container_carrusel {
-    max-width: 800px; 
-    margin: 0 auto; 
-    overflow: hidden;
-    position: relative;
-}
-
-.carruseles {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.slider_section img {
-    min-width: 100%;
-    height: auto;
-  
-
-}
-.btn_left,
-.btn_right {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 2em;
-    
-   
-color: #333;
-    cursor: pointer;
-}
-
-.btn_left {
-    left: 0;
-}
-
-.btn_right {
-    right: 0;
 }

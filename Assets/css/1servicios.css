@@ -1,4 +1,4 @@
-@import 'responsivePage/_responsive.css';
-@import 'responsivePage/_servicios.css';
+@import 'partials/_responsive.css';
+@import 'partials/_servicios.css';
 @import 'partials/_footerRes.css';
 @import 'partials/_variables.css';

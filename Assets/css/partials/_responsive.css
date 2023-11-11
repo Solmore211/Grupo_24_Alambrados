@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarpanch&family=Titillium+Web:wght@300&display=swap');
 * {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: var(--font-family);
+    color: var(--primary-color);
 }
 
 body {
     min-height: 100vh;
-    /*IMAGEN DE FONDO*/
     background: var(--bg-color);
     background-size: cover;
     background-position: center;
+    color: var(--primary-color);
 }
 
 .header {
@@ -44,7 +45,6 @@ body {
     left: -100%;
     width: 100%;
     height: 100%;
-    /*VA OSCURECIENDO EL COLOR DEL NAV*/
     background-color: linear-gradient(90deg, transparent, rgb(16, 16, 133, 0.4), transparent);
     transition: .5s;
 }
@@ -53,17 +53,16 @@ body {
     left: 100%;
 }
 
-/*LOGO INICIAL*/
 .logo {
     font-size: 2rem;
-    color:rgb(22, 88, 163);
+    color: var(--primary-color);
     text-decoration: none;
     font-weight: 700;
 }
 
 .navBar a {
     font-size: 1.15rem;
-    color: rgb(22, 88, 163);
+    color: var(--primary-color);
     text-decoration: none;
     font-weight: 700;
     margin-left: 2.5rem;
@@ -82,7 +81,7 @@ body {
     display: none;
 }
 
-/*BREAKPOINTS*/
+
 @media (max-width: 992px) {
     .header {
         padding: 1.3rem 5%;
@@ -112,11 +111,9 @@ body {
         left: 0;
         width: 100%;
         height: 0;
-        background: var(--secondary-color) ; /*CAmbiar el color*/
+        background: var(--secondary-color) ;
         backdrop-filter: blur(50px);
         box-shadow: 0 .5rem 1rem rgb(236, 233, 233);
-        /*CUANDO ESTA EL MENU Y DAS CLICK APARECE LA CRUZ
-        Y EL MENU*/
         overflow: hidden;
         transition: .3s ease;
     }
@@ -138,7 +135,6 @@ body {
     #check:checked~.navBar a {
         transform: translateY(0);
         opacity: 1;
-        /*LOS HACE CAER*/
         transition-delay: calc(.20s * var(--i));
     
     }
