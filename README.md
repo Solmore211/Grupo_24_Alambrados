@@ -90,3 +90,7 @@ ramaSol14:
 Cambios en css: renombrando variables y reacomodando los mismos
 Cambios en html: modificación en detalles
 Eliminación de carpetas en desuso
+
+11.11.23
+ramaSol15:
+Cambio en _portada.css
