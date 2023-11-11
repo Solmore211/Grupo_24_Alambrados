@@ -14,7 +14,7 @@ main h1 {
     text-align: center;
     padding: 20px;
     font-family: var(--font-family);
-    color: rgb(22, 88, 163);;
+    color: var(--primary-color);
 }
 
 main p {
@@ -30,7 +30,7 @@ main p {
     height: 200px; 
     width: 200px;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px rgb(91, 198, 212);
+    box-shadow: 5px 5px 5px var(--primary-color);
     background-color: white;
     transition: all 0.2s;
     }

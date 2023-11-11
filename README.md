@@ -85,3 +85,8 @@ Modificación de detalles en htmls
 ramaViko11:
 Cambios en css footer 
 y pruebas en html index para corregir carrusel
+
+ramaSol14:
+Cambios en css: renombrando variables y reacomodando los mismos
+Cambios en html: modificación en detalles
+Eliminación de carpetas en desuso
